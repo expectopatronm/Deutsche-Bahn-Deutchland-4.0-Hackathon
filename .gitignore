@@ -1,0 +1,50 @@
+# Python caches and local tooling
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local environments
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# Generated runtime artifacts
+detection.txt
+Sample_Video*.avi
+single_image.png
+output/
+outputs/
+logs/
+log/
+
+# Large local model/checkpoint files
+*.h5
+*.pb
+*.pth
+*.pt
+*.ckpt
+*.weights
+
+# Raw or generated local datasets kept outside normal Git history
+data/
+DBHack/
+model_data/*.h5
+model_data/*.pb
+additional_files/models/pytorch/
+
+# Heavy presentation drafts and exports
+*.pptx
+!docs/*.pdf
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
